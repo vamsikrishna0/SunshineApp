@@ -43,10 +43,7 @@ public class DetailActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-<<<<<<< HEAD
             startActivity(new Intent(this, SettingsActivity.class));
-=======
->>>>>>> df31457e7eb786ea7d5e0881a348cb1358f8dcee
             return true;
         }
 

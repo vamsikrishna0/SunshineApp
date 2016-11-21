@@ -76,12 +76,9 @@ public class ForecastFragment extends Fragment {
                 e.printStackTrace();
             }
             return true;
-<<<<<<< HEAD
         } else if (id == R.id.action_settings) {
             startActivity(new Intent(this.getActivity(), SettingsActivity.class));
             return true;
-=======
->>>>>>> df31457e7eb786ea7d5e0881a348cb1358f8dcee
         }
         return super.onOptionsItemSelected(item);
     }
@@ -133,11 +130,8 @@ public class ForecastFragment extends Fragment {
             if (params.length == 0)
                 return null;
             String postalCode = params[0];
-<<<<<<< HEAD
-//            final String KEY = "2ffb1a790b9db0a95a3d2b49287a1c05";
-=======
+
             final String KEY = "2ffb1a790b9db0a95a3d2b49287a1c05";
->>>>>>> df31457e7eb786ea7d5e0881a348cb1358f8dcee
 
             // These two need to be declared outside the try/catch
             // so that they can be closed in the finally block.
@@ -163,11 +157,7 @@ public class ForecastFragment extends Fragment {
                         .appendQueryParameter(FORMAT_PARAM, format)
                         .appendQueryParameter(UNITS_PARAM, units)
                         .appendQueryParameter(DAYS_PARAM, Integer.toString(numDays))
-<<<<<<< HEAD
                         .appendQueryParameter(APPID_PARAM, BuildConfig.OPEN_WEATHER_MAP_API_KEY)
-=======
-                        .appendQueryParameter(APPID_PARAM, KEY)
->>>>>>> df31457e7eb786ea7d5e0881a348cb1358f8dcee
                         .build();
 
                 URL url = new URL(builtUri.toString());

@@ -5,10 +5,7 @@
     <item android:id="@+id/action_refresh"
         android:title="@string/action_refresh"
         app:showAsAction="never" />
-<<<<<<< HEAD
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
         app:showAsAction="never" />
-=======
->>>>>>> df31457e7eb786ea7d5e0881a348cb1358f8dcee
 </menu>

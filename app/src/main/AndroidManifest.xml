@@ -25,7 +25,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.sunshine1.app.MainActivity" />
         </activity>
-<<<<<<< HEAD
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
@@ -34,8 +33,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.sunshine1.app.MainActivity" />
         </activity>
-=======
->>>>>>> df31457e7eb786ea7d5e0881a348cb1358f8dcee
     </application>
 
 </manifest>
